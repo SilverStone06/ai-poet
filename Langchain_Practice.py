@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 
 #export OPENAI_API_KEY = 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
 
-def poet_content(content) :
+def poem_content(content) :
     
     chat_model = ChatOpenAI(api_key = "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")  # api_key 매개변수로 전달
 
