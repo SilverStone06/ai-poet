@@ -1,4 +1,5 @@
 import streamlit as st
+from langchain_openai import ChatOpenAI
 from Langchain_Practice import poem_content
 
 st.title('인공지능 시인')
