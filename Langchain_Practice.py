@@ -6,4 +6,3 @@ def poem_content(content) :
 
     result = chat_model.invoke(content + "에 대한 시를 써줘.")
     return result
-    #print(result)
