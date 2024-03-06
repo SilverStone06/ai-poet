@@ -3,7 +3,7 @@ from Langchain_Practice import poem_content
 from streamlit_extras.buy_me_a_coffee import button
 
 def BMC():
-    button(username="fake-username", floating=True, width=221)
+    button(username="silverstone", floating=True, width=221)
 
 BMC()
 st.title('인공지능 시인')
